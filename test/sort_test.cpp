@@ -108,7 +108,6 @@ TEST_CASE("Insertion sort")
         });
     };
 
-/*
     // LARGE VECTORS
 
     BENCHMARK_ADVANCED("Insertion sort (1k)")(Catch::Benchmark::Chronometer meter) {
@@ -150,7 +149,6 @@ TEST_CASE("Insertion sort")
 			return v;
         });
     };
-*/
 }
 
 TEST_CASE("Quick sort")
@@ -235,7 +233,6 @@ TEST_CASE("Quick sort")
         });
     };
 
-/*
     // LARGE VECTORS
 
     BENCHMARK_ADVANCED("Quick sort (1k)")(Catch::Benchmark::Chronometer meter) {
@@ -277,10 +274,8 @@ TEST_CASE("Quick sort")
 			return v;
         });
     };
-*/
 }
 
-/*
 TEST_CASE("Hybrid sort")
 {
 	vector<int> v;
@@ -351,4 +346,3 @@ TEST_CASE("Hybrid sort")
         });
     };
 }
-*/
